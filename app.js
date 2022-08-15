@@ -11,5 +11,12 @@ app.use(express.json())
 app.use(express.static(path.join(__dirname, "/public")));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/public', 'index.html'));
+  res.sendFile(path.join(__dirname, '/public', 'finish1.html'));
 });
+
+
+const PORT = process.env.PORT || 3002
+
+app.listen(PORT,()=>{
+    console.log("Run"+PORT)
+})
