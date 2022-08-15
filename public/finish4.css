@@ -1,0 +1,19 @@
+#navbar {
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 80px;
+}
+
+#albums .items {
+    flex-direction: column;
+}
+
+#albums .items .item {
+    width: 100%;
+}
+
+.musicv {
+    flex-direction: column;
+}

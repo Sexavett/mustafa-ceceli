@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background: #336ea2;
+    border-radius: 3.1px;
+}
+
+.xett {
+    content: "";
+    background: #000000;
+    display: block;
+    height: 18px;
+    left: -1px;
+    top: 12px;
+    width: 1px;
+}
+
+/*  */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+}
+
+.name1 {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pteqi {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+body {
+    background: #dddddd;
+}
+
+#musicvid {
+    padding: 1rem;
+}
+
+#musicvid h3 {
+    padding-bottom: 1rem;
+}
+
+.musicvs {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.musicv {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.musicv-img {
+    margin-right: 0.5rem;
+    position: relative;
+    border-radius: 5px;
+}
+span {
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.musicv-info .title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+} 
+
+.musicv-info .description {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+.musicv-info .ytb {
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
+.musicv-info .view {
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+#contact {
+    color: #ffffff;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a {
+    margin-right: 1rem;
+}
+
+.btn {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.linq:hover {
+    opacity: 0.5;
+}

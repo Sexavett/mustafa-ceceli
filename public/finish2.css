@@ -1,0 +1,92 @@
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+.bg-dark-blue {
+    background: #062e51;
+}
+
+.bg-light-blue {
+    background: #336ea2;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#bttn {
+    display: inline-block;
+    color: #ffffff;
+    background: #062e51;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3.1rem;
+    border: 0.5px solid #062e51;
+    letter-spacing: 1px;
+}
+
+#bttn:hover {
+    color: #062e51;
+    background: #ffffff;
+    border: 0.5px solid #062e51;
+}
+
+#albums {
+    color: #ffffff;
+    padding: 1rem;
+}
+
+#albums .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#albums .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#albums .items .item:hover {
+    color: greenyellow;
+    opacity: 0.5;
+}
+
+.form-group {
+    padding: 0.25rem 0;
+}
+
+.form-group label {
+    display: block;
+}
+
+#bttn-block {
+    width: 100%;
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 7px;
+}
+
+.form-control:hover {
+    opacity: 0.8;
+}
